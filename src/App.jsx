@@ -54,8 +54,8 @@ function App() {
         <button>Play</button>
 
         <div>
-          <h2>nag nakaw ng cp</h2>
-          <p>Jessie Andino</p>
+          <h2>Hiling</h2>
+          <p>Silent Sanctuary</p>
         </div>
 
         <span>3:25</span>
