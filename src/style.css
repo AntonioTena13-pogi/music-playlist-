@@ -1,0 +1,74 @@
+body {
+  background-color: #f3f0ff;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  width: 500px;
+  margin: 100px ;
+  padding: 30px;
+  background-color: white;
+  border-radius: 10px;
+
+  box-shadow: 0 4px 12px rgba(100, 80, 150, 0.15);
+}
+
+h1 {
+  color: #6c4cc4;
+  margin-bottom: 5px;
+}
+
+.container > p {
+  color: #888;
+  margin-bottom: 25px;
+}
+
+.song {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+
+  padding: 15px;
+  margin-bottom: 10px;
+
+  background-color: #faf9ff;
+  border: 1px solid #e3ddff;
+  border-radius: 8px;
+}
+.song button {
+  width: 40px;
+  height: 40px;
+
+  border: none;
+  border-radius: 50%;
+
+  background-color: #6c4cc4;
+  color: white;
+
+  cursor: pointer;
+}
+
+.song button:hover {
+  background-color: #5535a8;
+}
+
+.song div {
+  flex: 1;
+}
+
+.song h2 {
+  font-size: 16px;
+  color: #333;
+  margin: 0 0 5px;
+}
+
+.song p {
+  color: #888;
+  font-size: 14px;
+  margin: 0;
+}
+
+.song span {
+  color: #6c4cc4;
+  font-size: 14px;
+}
