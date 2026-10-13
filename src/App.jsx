@@ -1,13 +1,13 @@
-import "./style.css";
+import "./styles.css";
 
 function App() {
   return (
     <div className="container">
-      <h1>My Playlist</h1>
-      <p>Welcome to Antons playlist!</p>
+      <h1 className="playlist">My Playlist</h1>
+      <p className="anton">Welcome to Antons playlist!</p>
 
       <div className="song">
-        <button>Play</button>
+        <button>▶️</button>
 
         <div>
           <h2>Die With A Smile</h2>
@@ -18,7 +18,7 @@ function App() {
       </div>
 
       <div className="song">
-        <button>Play</button>
+        <button>▶️</button>
 
         <div>
           <h2>Pangako</h2>
@@ -29,7 +29,7 @@ function App() {
       </div>
 
       <div className="song">
-        <button>Play</button>
+        <button>▶️</button>
 
         <div>
           <h2>Risk It All</h2>
@@ -40,7 +40,7 @@ function App() {
       </div>
 
       <div className="song">
-        <button>Play</button>
+        <button>▶️</button>
 
         <div>
           <h2>Shot Puno</h2>
@@ -51,7 +51,7 @@ function App() {
       </div>
 
       <div className="song">
-        <button>Play</button>
+        <button>▶️</button>
 
         <div>
           <h2>Hiling</h2>
